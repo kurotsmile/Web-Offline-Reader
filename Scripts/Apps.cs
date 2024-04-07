@@ -18,7 +18,7 @@ public class Apps : MonoBehaviour
     private int scores_ranks = 0;
     private Carrot.Carrot_Window_Loading loading_create;
     private Carrot.Carrot_Box box_setting;
-
+ 
     void Start()
     {
         this.carrot.Load_Carrot(this.check_exit_app);
